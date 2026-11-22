@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.telegram.messenger"
     android:installLocation="auto">
 
     <supports-screens android:anyDensity="true"
@@ -73,6 +72,7 @@
 
         <activity
             android:name="org.telegram.ui.LaunchActivity"
+            android:exported="true"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:hardwareAccelerated="@bool/useHardwareAcceleration"
             android:launchMode="singleTask"
@@ -140,6 +140,7 @@
         </activity>
         <activity
             android:name="org.telegram.ui.ShareActivity"
+            android:exported="true"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:hardwareAccelerated="@bool/useHardwareAcceleration"
             android:windowSoftInputMode="adjustPan"
@@ -213,13 +214,13 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".CallReceiver" >
+        <receiver android:name=".CallReceiver" android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.PHONE_STATE" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".SmsListener">
+        <receiver android:name=".SmsListener" android:exported="true">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
@@ -245,6 +246,7 @@
 
         <service
             android:name="org.telegram.messenger.TgChooserTargetService"
+            android:exported="true"
             android:label="@string/AppName"
             android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
             <intent-filter>
@@ -265,7 +267,7 @@
                 <action android:name="android.media.browse.MediaBrowserService"/>
             </intent-filter>
         </service>
-        <service android:name=".WearDataLayerListenerService">
+        <service android:name=".WearDataLayerListenerService" android:exported="true">
             <intent-filter>
                 <!-- listeners receive events that match the action and data filters -->
                 <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
@@ -276,7 +278,7 @@
             </intent-filter>
         </service>
 
-        <receiver android:name=".MusicPlayerReceiver" >
+        <receiver android:name=".MusicPlayerReceiver" android:exported="true" >
             <intent-filter>
                 <action android:name="org.telegram.android.musicplayer.close" />
                 <action android:name="org.telegram.android.musicplayer.pause" />
@@ -287,13 +289,13 @@
                 <action android:name="android.media.AUDIO_BECOMING_NOISY" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".voip.VoIPMediaButtonReceiver">
+        <receiver android:name=".voip.VoIPMediaButtonReceiver" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".AppStartReceiver" android:enabled="true">
+        <receiver android:name=".AppStartReceiver" android:enabled="true" android:exported="true">
             <intent-filter>
                 <action android:name="org.telegram.start" />
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -350,3 +352,4 @@
     </application>
 
 </manifest>
+

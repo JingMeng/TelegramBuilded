@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.extractor.mp4;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Log;
 import org.telegram.messenger.exoplayer2.C;
 import org.telegram.messenger.exoplayer2.extractor.TrackOutput;
@@ -98,3 +98,4 @@ public final class TrackEncryptionBox {
   }
 
 }
+

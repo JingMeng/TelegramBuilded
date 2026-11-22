@@ -23,7 +23,7 @@ import android.media.MediaDrm;
 import android.media.NotProvisionedException;
 import android.media.ResourceBusyException;
 import android.media.UnsupportedSchemeException;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import org.telegram.messenger.exoplayer2.C;
 import org.telegram.messenger.exoplayer2.util.Assertions;
 import org.telegram.messenger.exoplayer2.util.Util;
@@ -174,3 +174,4 @@ public final class FrameworkMediaDrm implements ExoMediaDrm<FrameworkMediaCrypto
   }
 
 }
+

@@ -29,8 +29,8 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v4.content.FileProvider;
+import androidx.annotation.NonNull;
+import androidx.core.content.FileProvider;
 import android.text.Html;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -731,7 +731,7 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
                         showDialog(builder.create());
                     } else {
                         try {
-                            Toast.makeText(getParentActivity(), "¯\\_(ツ)_/¯", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getParentActivity(), "炉\\_(銉?_/炉", Toast.LENGTH_SHORT).show();
                         } catch (Exception e) {
                             FileLog.e(e);
                         }
@@ -1467,3 +1467,4 @@ public class SettingsActivity extends BaseFragment implements NotificationCenter
         };
     }
 }
+

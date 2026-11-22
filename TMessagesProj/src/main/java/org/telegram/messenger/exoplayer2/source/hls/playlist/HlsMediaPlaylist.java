@@ -15,8 +15,8 @@
  */
 package org.telegram.messenger.exoplayer2.source.hls.playlist;
 
-import android.support.annotation.IntDef;
-import android.support.annotation.NonNull;
+import androidx.annotation.IntDef;
+import androidx.annotation.NonNull;
 import org.telegram.messenger.exoplayer2.C;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

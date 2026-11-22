@@ -17,8 +17,8 @@
 package org.telegram.messenger.support.widget;
 
 import android.graphics.PointF;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.util.DisplayMetrics;
 import android.view.View;
 
@@ -28,7 +28,7 @@ import android.view.View;
  *
  * <p>
  *
- * PagerSnapHelper can help achieve a similar behavior to {@link android.support.v4.view.ViewPager}.
+ * PagerSnapHelper can help achieve a similar behavior to {@link androidx.viewpager.widget.ViewPager}.
  * Set both {@link RecyclerView} and {@link org.telegram.messenger.support.widget.RecyclerView.Adapter} to have
  * MATCH_PARENT height and width and then attach PagerSnapHelper to the {@link RecyclerView} using
  * {@link #attachToRecyclerView(RecyclerView)}.
@@ -251,3 +251,4 @@ public class PagerSnapHelper extends SnapHelper {
         return mHorizontalHelper;
     }
 }
+

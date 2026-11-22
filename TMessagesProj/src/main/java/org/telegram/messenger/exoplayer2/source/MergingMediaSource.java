@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.source;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import org.telegram.messenger.exoplayer2.ExoPlayer;
 import org.telegram.messenger.exoplayer2.Timeline;
 import org.telegram.messenger.exoplayer2.upstream.Allocator;
@@ -172,3 +172,4 @@ public final class MergingMediaSource implements MediaSource {
   }
 
 }
+

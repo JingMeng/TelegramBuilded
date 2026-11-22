@@ -38,9 +38,9 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.content.FileProvider;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
+import androidx.core.content.FileProvider;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 import android.text.Layout;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
@@ -8536,3 +8536,4 @@ public class ArticleViewer implements NotificationCenter.NotificationCenterDeleg
         return object;
     }
 }
+

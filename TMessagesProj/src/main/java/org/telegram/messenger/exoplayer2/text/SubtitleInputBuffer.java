@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.text;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import org.telegram.messenger.exoplayer2.Format;
 import org.telegram.messenger.exoplayer2.decoder.DecoderInputBuffer;
 
@@ -48,3 +48,4 @@ public final class SubtitleInputBuffer extends DecoderInputBuffer
   }
 
 }
+

@@ -31,7 +31,7 @@ import android.graphics.Shader;
 import android.graphics.SweepGradient;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.annotation.Keep;
+import androidx.annotation.Keep;
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.InputType;

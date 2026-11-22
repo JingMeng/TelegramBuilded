@@ -16,7 +16,7 @@
 package org.telegram.messenger.exoplayer2.text.webvtt;
 
 import android.graphics.Typeface;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.text.Layout.Alignment;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
@@ -536,3 +536,4 @@ import java.util.regex.Pattern;
   }
 
 }
+

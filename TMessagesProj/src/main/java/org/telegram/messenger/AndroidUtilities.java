@@ -49,9 +49,9 @@ import android.os.Handler;
 import android.provider.CallLog;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
-import android.support.v4.content.FileProvider;
-import android.support.v4.view.ViewPager;
-import android.support.v4.widget.EdgeEffectCompat;
+import androidx.core.content.FileProvider;
+import androidx.viewpager.widget.ViewPager;
+import androidx.core.widget.EdgeEffectCompat;
 import android.telephony.TelephonyManager;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
@@ -1872,3 +1872,4 @@ public class AndroidUtilities {
         builder.show().setCanceledOnTouchOutside(true);
     }
 }
+

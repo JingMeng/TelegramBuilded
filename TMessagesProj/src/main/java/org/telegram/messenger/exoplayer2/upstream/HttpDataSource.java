@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.upstream;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.text.TextUtils;
 import org.telegram.messenger.exoplayer2.util.Predicate;
 import org.telegram.messenger.exoplayer2.util.Util;
@@ -348,3 +348,4 @@ public interface HttpDataSource extends DataSource {
   Map<String, List<String>> getResponseHeaders();
 
 }
+

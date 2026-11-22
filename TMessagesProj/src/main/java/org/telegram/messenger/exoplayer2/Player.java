@@ -16,8 +16,8 @@
 package org.telegram.messenger.exoplayer2;
 
 import android.os.Looper;
-import android.support.annotation.IntDef;
-import android.support.annotation.Nullable;
+import androidx.annotation.IntDef;
+import androidx.annotation.Nullable;
 import org.telegram.messenger.exoplayer2.source.TrackGroupArray;
 import org.telegram.messenger.exoplayer2.trackselection.TrackSelectionArray;
 import java.lang.annotation.Retention;
@@ -408,3 +408,4 @@ public interface Player {
   long getContentPosition();
 
 }
+

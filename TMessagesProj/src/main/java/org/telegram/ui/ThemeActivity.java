@@ -16,7 +16,7 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Vibrator;
-import android.support.v4.content.FileProvider;
+import androidx.core.content.FileProvider;
 import android.text.InputType;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -408,3 +408,4 @@ public class ThemeActivity extends BaseFragment {
         };
     }
 }
+

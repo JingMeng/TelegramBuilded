@@ -42,7 +42,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.provider.MediaStore;
-import android.support.v4.content.FileProvider;
+import androidx.core.content.FileProvider;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
@@ -12281,3 +12281,4 @@ public class ChatActivity extends BaseFragment implements NotificationCenter.Not
         };
     }
 }
+

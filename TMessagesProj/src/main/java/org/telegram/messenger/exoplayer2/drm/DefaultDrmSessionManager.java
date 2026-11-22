@@ -24,8 +24,8 @@ import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Looper;
 import android.os.Message;
-import android.support.annotation.IntDef;
-import android.support.annotation.NonNull;
+import androidx.annotation.IntDef;
+import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.Pair;
@@ -719,3 +719,4 @@ public class DefaultDrmSessionManager<T extends ExoMediaCrypto> implements DrmSe
   }
 
 }
+

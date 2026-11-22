@@ -22,7 +22,7 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.content.FileProvider;
+import androidx.core.content.FileProvider;
 import android.text.TextUtils;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -1968,7 +1968,7 @@ public class MediaActivity extends BaseFragment implements NotificationCenter.No
 
     @Override
     public ThemeDescription[] getThemeDescriptions() {
-        ThemeDescription.ThemeDescriptionDelegate сellDelegate = new ThemeDescription.ThemeDescriptionDelegate() {
+        ThemeDescription.ThemeDescriptionDelegate 褋ellDelegate = new ThemeDescription.ThemeDescriptionDelegate() {
             @Override
             public void didSetColor(int color) {
                 int count = listView.getChildCount();
@@ -2042,8 +2042,8 @@ public class MediaActivity extends BaseFragment implements NotificationCenter.No
                 new ThemeDescription(listView, ThemeDescription.FLAG_SECTIONS, new Class[]{SharedMediaSectionCell.class}, new String[]{"textView"}, null, null, null, Theme.key_windowBackgroundWhiteBlackText),
                 new ThemeDescription(listView, 0, new Class[]{SharedMediaSectionCell.class}, new String[]{"textView"}, null, null, null, Theme.key_windowBackgroundWhiteBlackText),
 
-                new ThemeDescription(listView, ThemeDescription.FLAG_CHECKBOX, new Class[]{SharedPhotoVideoCell.class}, null, null, сellDelegate, Theme.key_checkbox),
-                new ThemeDescription(listView, ThemeDescription.FLAG_CHECKBOXCHECK, new Class[]{SharedPhotoVideoCell.class}, null, null, сellDelegate, Theme.key_checkboxCheck),
+                new ThemeDescription(listView, ThemeDescription.FLAG_CHECKBOX, new Class[]{SharedPhotoVideoCell.class}, null, null, 褋ellDelegate, Theme.key_checkbox),
+                new ThemeDescription(listView, ThemeDescription.FLAG_CHECKBOXCHECK, new Class[]{SharedPhotoVideoCell.class}, null, null, 褋ellDelegate, Theme.key_checkboxCheck),
 
                 new ThemeDescription(fragmentContextView, ThemeDescription.FLAG_CELLBACKGROUNDCOLOR, new Class[]{FragmentContextView.class}, new String[]{"frameLayout"}, null, null, null, Theme.key_inappPlayerBackground),
                 new ThemeDescription(fragmentContextView, 0, new Class[]{FragmentContextView.class}, new String[]{"playButton"}, null, null, null, Theme.key_inappPlayerPlayPause),
@@ -2053,3 +2053,4 @@ public class MediaActivity extends BaseFragment implements NotificationCenter.No
         };
     }
 }
+

@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import org.telegram.messenger.exoplayer2.source.MediaSource;
 import org.telegram.messenger.exoplayer2.util.Assertions;
 import java.io.IOException;
@@ -132,3 +132,4 @@ public final class ExoPlaybackException extends Exception {
   }
 
 }
+

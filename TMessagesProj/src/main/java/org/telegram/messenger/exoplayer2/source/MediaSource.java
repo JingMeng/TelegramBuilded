@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.source;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import org.telegram.messenger.exoplayer2.C;
 import org.telegram.messenger.exoplayer2.ExoPlayer;
 import org.telegram.messenger.exoplayer2.Timeline;
@@ -189,3 +189,4 @@ public interface MediaSource {
   void releaseSource();
 
 }
+

@@ -17,7 +17,7 @@ package org.telegram.messenger.exoplayer2.ui;
 
 import android.content.Context;
 import android.graphics.Matrix;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.util.AttributeSet;
 import android.view.TextureView;
 import android.view.View;
@@ -200,3 +200,4 @@ public class AspectRatioFrameLayout extends FrameLayout {
     }
 
 }
+

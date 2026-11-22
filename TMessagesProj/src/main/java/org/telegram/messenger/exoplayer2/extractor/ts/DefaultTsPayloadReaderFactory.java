@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.extractor.ts;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.util.SparseArray;
 import org.telegram.messenger.exoplayer2.Format;
 import org.telegram.messenger.exoplayer2.extractor.ts.TsPayloadReader.EsInfo;
@@ -178,3 +178,4 @@ public final class DefaultTsPayloadReaderFactory implements TsPayloadReader.Fact
   }
 
 }
+

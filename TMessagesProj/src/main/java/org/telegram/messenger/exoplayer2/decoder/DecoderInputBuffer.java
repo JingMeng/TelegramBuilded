@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.decoder;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import org.telegram.messenger.exoplayer2.C;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -163,3 +163,4 @@ public class DecoderInputBuffer extends Buffer {
   }
 
 }
+

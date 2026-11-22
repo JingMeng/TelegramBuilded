@@ -18,7 +18,7 @@ package org.telegram.messenger.exoplayer2.text;
 import android.annotation.TargetApi;
 import android.graphics.Color;
 import android.graphics.Typeface;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.view.accessibility.CaptioningManager;
 import android.view.accessibility.CaptioningManager.CaptionStyle;
 import org.telegram.messenger.exoplayer2.util.Util;
@@ -165,3 +165,4 @@ public final class CaptionStyleCompat {
   }
 
 }
+

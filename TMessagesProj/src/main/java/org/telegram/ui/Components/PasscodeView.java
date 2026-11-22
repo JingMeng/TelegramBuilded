@@ -24,7 +24,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Vibrator;
-import android.support.v4.os.CancellationSignal;
+import androidx.core.os.CancellationSignal;
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.InputType;

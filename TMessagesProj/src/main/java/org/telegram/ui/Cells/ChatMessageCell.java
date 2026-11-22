@@ -500,7 +500,7 @@ public class ChatMessageCell extends BaseCell implements SeekBar.SeekBarDelegate
                                     if (end >= block.charactersEnd) {
                                         for (int a = blockNum + 1; a < currentMessageObject.textLayoutBlocks.size(); a++) {
                                             MessageObject.TextLayoutBlock nextBlock = currentMessageObject.textLayoutBlocks.get(a);
-                                            CharacterStyle[] nextLink = buffer.getSpans(nextBlock.charactersOffset, nextBlock.charactersOffset, isMono ? URLSpanMono.class : ClickableSpan.class);
+                                            CharacterStyle[] nextLink = isMono ? buffer.getSpans(nextBlock.charactersOffset, nextBlock.charactersOffset, URLSpanMono.class) : buffer.getSpans(nextBlock.charactersOffset, nextBlock.charactersOffset, ClickableSpan.class);
                                             if (nextLink == null || nextLink.length == 0 || nextLink[0] != pressedLink) {
                                                 break;
                                             }
@@ -516,7 +516,7 @@ public class ChatMessageCell extends BaseCell implements SeekBar.SeekBarDelegate
                                         int offsetY = 0;
                                         for (int a = blockNum - 1; a >= 0; a--) {
                                             MessageObject.TextLayoutBlock nextBlock = currentMessageObject.textLayoutBlocks.get(a);
-                                            CharacterStyle[] nextLink = buffer.getSpans(nextBlock.charactersEnd - 1, nextBlock.charactersEnd - 1, isMono ? URLSpanMono.class : ClickableSpan.class);
+                                            CharacterStyle[] nextLink = isMono ? buffer.getSpans(nextBlock.charactersEnd - 1, nextBlock.charactersEnd - 1, URLSpanMono.class) : buffer.getSpans(nextBlock.charactersEnd - 1, nextBlock.charactersEnd - 1, ClickableSpan.class);
                                             if (nextLink == null || nextLink.length == 0 || nextLink[0] != pressedLink) {
                                                 break;
                                             }

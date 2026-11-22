@@ -1527,7 +1527,7 @@ public class Theme {
             @Override
             public boolean selectDrawable(int index) {
                 if (Build.VERSION.SDK_INT < 21) {
-                    Drawable drawable = getStateDrawable(this, index);
+                    Drawable drawable = Theme.getStateDrawable(this, index);
                     ColorFilter colorFilter = null;
                     if (drawable instanceof BitmapDrawable) {
                         colorFilter = ((BitmapDrawable) drawable).getPaint().getColorFilter();
@@ -1560,7 +1560,7 @@ public class Theme {
             @Override
             public boolean selectDrawable(int index) {
                 if (Build.VERSION.SDK_INT < 21) {
-                    Drawable drawable = getStateDrawable(this, index);
+                    Drawable drawable = Theme.getStateDrawable(this, index);
                     ColorFilter colorFilter = null;
                     if (drawable instanceof BitmapDrawable) {
                         colorFilter = ((BitmapDrawable) drawable).getPaint().getColorFilter();
@@ -1596,7 +1596,7 @@ public class Theme {
             @Override
             public boolean selectDrawable(int index) {
                 if (Build.VERSION.SDK_INT < 21) {
-                    Drawable drawable = getStateDrawable(this, index);
+                    Drawable drawable = Theme.getStateDrawable(this, index);
                     ColorFilter colorFilter = null;
                     if (drawable instanceof BitmapDrawable) {
                         colorFilter = ((BitmapDrawable) drawable).getPaint().getColorFilter();

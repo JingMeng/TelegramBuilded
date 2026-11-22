@@ -17,7 +17,7 @@ package org.telegram.messenger.support.widget;
 
 import android.content.Context;
 import android.graphics.Rect;
-import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
+import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.util.SparseIntArray;

@@ -16,7 +16,7 @@
 
 package org.telegram.messenger.support.widget;
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
 import static org.telegram.messenger.support.widget.LayoutState.ITEM_DIRECTION_HEAD;
 import static org.telegram.messenger.support.widget.LayoutState.ITEM_DIRECTION_TAIL;
 import static org.telegram.messenger.support.widget.LayoutState.LAYOUT_END;
@@ -28,13 +28,13 @@ import android.graphics.PointF;
 import android.graphics.Rect;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.RestrictTo;
-import android.support.v4.view.ViewCompat;
-import android.support.v4.view.accessibility.AccessibilityEventCompat;
-import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
-import android.support.v4.view.accessibility.AccessibilityRecordCompat;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.RestrictTo;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.accessibility.AccessibilityEventCompat;
+import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
+import androidx.core.view.accessibility.AccessibilityRecordCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -3250,3 +3250,4 @@ public class StaggeredGridLayoutManager extends RecyclerView.LayoutManager imple
         }
     }
 }
+

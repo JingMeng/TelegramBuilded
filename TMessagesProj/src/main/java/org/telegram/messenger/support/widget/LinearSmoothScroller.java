@@ -18,7 +18,7 @@ package org.telegram.messenger.support.widget;
 
 import android.content.Context;
 import android.graphics.PointF;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
@@ -359,3 +359,4 @@ public class LinearSmoothScroller extends RecyclerView.SmoothScroller {
         return null;
     }
 }
+

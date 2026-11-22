@@ -16,7 +16,7 @@
 
 package org.telegram.messenger.support.widget;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.view.View;
 
 import java.lang.annotation.Retention;
@@ -272,3 +272,4 @@ class ViewBoundsCheck {
         int getChildEnd(View view);
     }
 }
+

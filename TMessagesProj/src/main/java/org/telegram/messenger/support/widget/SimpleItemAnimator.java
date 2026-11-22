@@ -1,7 +1,7 @@
 package org.telegram.messenger.support.widget;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import org.telegram.messenger.support.widget.RecyclerView.Adapter;
 import org.telegram.messenger.support.widget.RecyclerView.ViewHolder;
 import org.telegram.messenger.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
@@ -440,3 +440,4 @@ abstract public class SimpleItemAnimator extends RecyclerView.ItemAnimator {
     public void onChangeFinished(ViewHolder item, boolean oldItem) {
     }
 }
+

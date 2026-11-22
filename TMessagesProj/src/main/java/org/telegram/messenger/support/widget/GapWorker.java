@@ -15,8 +15,8 @@
  */
 package org.telegram.messenger.support.widget;
 
-import android.support.annotation.Nullable;
-import android.support.v4.os.TraceCompat;
+import androidx.annotation.Nullable;
+import androidx.core.os.TraceCompat;
 import android.view.View;
 
 import java.util.ArrayList;
@@ -393,3 +393,4 @@ final class GapWorker implements Runnable {
         }
     }
 }
+

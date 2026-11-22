@@ -19,7 +19,7 @@ import android.media.audiofx.Virtualizer;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.SystemClock;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import org.telegram.messenger.exoplayer2.BaseRenderer;
 import org.telegram.messenger.exoplayer2.C;
 import org.telegram.messenger.exoplayer2.ExoPlaybackException;
@@ -628,3 +628,4 @@ public abstract class SimpleDecoderAudioRenderer extends BaseRenderer implements
   }
 
 }
+

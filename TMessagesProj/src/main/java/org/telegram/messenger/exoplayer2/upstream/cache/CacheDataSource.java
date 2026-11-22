@@ -16,8 +16,8 @@
 package org.telegram.messenger.exoplayer2.upstream.cache;
 
 import android.net.Uri;
-import android.support.annotation.IntDef;
-import android.support.annotation.Nullable;
+import androidx.annotation.IntDef;
+import androidx.annotation.Nullable;
 import org.telegram.messenger.exoplayer2.C;
 import org.telegram.messenger.exoplayer2.upstream.DataSink;
 import org.telegram.messenger.exoplayer2.upstream.DataSource;
@@ -397,3 +397,4 @@ public final class CacheDataSource implements DataSource {
   }
 
 }
+

@@ -23,7 +23,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.v13.view.inputmethod.InputContentInfoCompat;
+import androidx.core.view.inputmethod.InputContentInfoCompat;
 import android.text.TextUtils;
 import android.webkit.MimeTypeMap;
 import android.widget.Toast;
@@ -4815,7 +4815,7 @@ public class SendMessagesHelper implements NotificationCenter.NotificationCenter
         } finally {
             try {
                 retriever.release();
-            } catch (RuntimeException ex) {
+            } catch (java.io.IOException | RuntimeException ex) {
                 // Ignore failures while cleaning up.
             }
         }

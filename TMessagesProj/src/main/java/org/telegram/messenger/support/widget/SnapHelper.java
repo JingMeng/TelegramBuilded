@@ -16,8 +16,8 @@
 
 package org.telegram.messenger.support.widget;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import org.telegram.messenger.support.widget.RecyclerView.LayoutManager;
 import org.telegram.messenger.support.widget.RecyclerView.SmoothScroller.ScrollVectorProvider;
 import android.util.DisplayMetrics;

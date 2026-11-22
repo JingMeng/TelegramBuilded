@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.extractor.ts;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.util.SparseArray;
 import android.util.SparseBooleanArray;
 import android.util.SparseIntArray;
@@ -556,3 +556,4 @@ public final class TsExtractor implements Extractor {
   }
 
 }
+

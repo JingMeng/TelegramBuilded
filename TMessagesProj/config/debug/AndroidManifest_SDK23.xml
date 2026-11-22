@@ -71,6 +71,7 @@
         <receiver
             tools:replace="android:enabled"
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:exported="false"
             android:enabled="false">
             <intent-filter>
                 <action android:name="com.google.android.gms.measurement.UPLOAD" />

@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.upstream.cache;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import org.telegram.messenger.exoplayer2.C;
 import java.io.File;
 
@@ -105,3 +105,4 @@ public class CacheSpan implements Comparable<CacheSpan> {
   }
 
 }
+

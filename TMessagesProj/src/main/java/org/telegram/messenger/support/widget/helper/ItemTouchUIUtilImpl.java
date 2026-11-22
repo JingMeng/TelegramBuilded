@@ -17,7 +17,7 @@
 package org.telegram.messenger.support.widget.helper;
 
 import android.graphics.Canvas;
-import android.support.v4.view.ViewCompat;
+import androidx.core.view.ViewCompat;
 import org.telegram.messenger.support.widget.RecyclerView;
 import android.view.View;
 
@@ -135,3 +135,4 @@ class ItemTouchUIUtilImpl {
         }
     }
 }
+

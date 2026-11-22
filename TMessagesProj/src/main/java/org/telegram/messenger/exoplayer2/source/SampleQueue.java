@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.source;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import org.telegram.messenger.exoplayer2.C;
 import org.telegram.messenger.exoplayer2.Format;
 import org.telegram.messenger.exoplayer2.FormatHolder;
@@ -699,3 +699,4 @@ public final class SampleQueue implements TrackOutput {
   }
 
 }
+

@@ -19,7 +19,7 @@ import android.os.Handler;
 import android.os.Handler.Callback;
 import android.os.Looper;
 import android.os.Message;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import org.telegram.messenger.exoplayer2.BaseRenderer;
 import org.telegram.messenger.exoplayer2.C;
 import org.telegram.messenger.exoplayer2.ExoPlaybackException;
@@ -328,3 +328,4 @@ public final class TextRenderer extends BaseRenderer implements Callback {
   }
 
 }
+

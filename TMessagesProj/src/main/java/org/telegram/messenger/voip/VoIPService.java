@@ -24,8 +24,8 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.IBinder;
 import android.os.Vibrator;
-import android.support.annotation.Nullable;
-import android.support.v4.app.NotificationManagerCompat;
+import androidx.annotation.Nullable;
+import androidx.core.app.NotificationManagerCompat;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
 import android.view.KeyEvent;
@@ -1055,3 +1055,4 @@ public class VoIPService extends VoIPBaseService implements NotificationCenter.N
 	}
 
 }
+

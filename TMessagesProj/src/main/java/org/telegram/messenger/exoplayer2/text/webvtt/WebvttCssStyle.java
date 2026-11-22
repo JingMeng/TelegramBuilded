@@ -16,7 +16,7 @@
 package org.telegram.messenger.exoplayer2.text.webvtt;
 
 import android.graphics.Typeface;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.text.Layout;
 import org.telegram.messenger.exoplayer2.util.Util;
 import java.lang.annotation.Retention;
@@ -302,3 +302,4 @@ import java.util.List;
   }
 
 }
+

@@ -17,7 +17,7 @@ package org.telegram.messenger.exoplayer2.drm;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import org.telegram.messenger.exoplayer2.C;
 import org.telegram.messenger.exoplayer2.drm.DrmInitData.SchemeData;
 import org.telegram.messenger.exoplayer2.util.Assertions;
@@ -332,3 +332,4 @@ public final class DrmInitData implements Comparator<SchemeData>, Parcelable {
   }
 
 }
+

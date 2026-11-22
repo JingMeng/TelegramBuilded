@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.upstream;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import org.telegram.messenger.exoplayer2.C;
 import org.telegram.messenger.exoplayer2.util.Assertions;
 import java.io.IOException;
@@ -105,3 +105,4 @@ public final class DataSourceInputStream extends InputStream {
   }
 
 }
+

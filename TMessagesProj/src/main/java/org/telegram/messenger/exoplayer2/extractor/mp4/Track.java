@@ -15,8 +15,8 @@
  */
 package org.telegram.messenger.exoplayer2.extractor.mp4;
 
-import android.support.annotation.IntDef;
-import android.support.annotation.Nullable;
+import androidx.annotation.IntDef;
+import androidx.annotation.Nullable;
 import org.telegram.messenger.exoplayer2.C;
 import org.telegram.messenger.exoplayer2.Format;
 import java.lang.annotation.Retention;
@@ -126,3 +126,4 @@ public final class Track {
   }
 
 }
+

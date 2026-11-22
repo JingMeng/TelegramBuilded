@@ -16,7 +16,7 @@ import android.graphics.Point;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.MediaStore;
-import android.support.v4.content.FileProvider;
+import androidx.core.content.FileProvider;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.BuildConfig;
@@ -155,3 +155,4 @@ public class WallpaperUpdater {
         }
     }
 }
+

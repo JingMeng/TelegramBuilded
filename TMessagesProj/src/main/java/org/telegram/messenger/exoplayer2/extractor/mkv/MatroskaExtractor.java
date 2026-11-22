@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.extractor.mkv;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.util.Log;
 import android.util.SparseArray;
 import org.telegram.messenger.exoplayer2.C;
@@ -1932,3 +1932,4 @@ public final class MatroskaExtractor implements Extractor {
   }
 
 }
+

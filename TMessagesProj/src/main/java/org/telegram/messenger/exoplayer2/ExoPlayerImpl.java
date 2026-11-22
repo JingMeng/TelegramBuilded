@@ -19,7 +19,7 @@ import android.annotation.SuppressLint;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Log;
 import org.telegram.messenger.exoplayer2.ExoPlayerImplInternal.PlaybackInfo;
 import org.telegram.messenger.exoplayer2.ExoPlayerImplInternal.SourceInfo;
@@ -520,3 +520,4 @@ import java.util.concurrent.CopyOnWriteArraySet;
   }
 
 }
+

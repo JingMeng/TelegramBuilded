@@ -18,7 +18,7 @@ package org.telegram.messenger.exoplayer2;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.util.Log;
 import org.telegram.messenger.exoplayer2.audio.AudioCapabilities;
 import org.telegram.messenger.exoplayer2.audio.AudioProcessor;
@@ -325,3 +325,4 @@ public class DefaultRenderersFactory implements RenderersFactory {
   }
 
 }
+

@@ -26,9 +26,9 @@ import android.os.Build;
 import android.os.PowerManager;
 import android.os.SystemClock;
 import android.provider.Settings;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.NotificationManagerCompat;
-import android.support.v4.app.RemoteInput;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
+import androidx.core.app.RemoteInput;
 import android.text.TextUtils;
 import android.util.SparseArray;
 
@@ -2053,7 +2053,7 @@ public class NotificationsController {
             if (count == null) {
                 count = 0;
             }
-            NotificationCompat.MessagingStyle messagingStyle = new NotificationCompat.MessagingStyle(null).setConversationTitle(String.format("%1$s (%2$s)", name, LocaleController.formatPluralString("NewMessages", Math.max(count, messageObjects.size()))));
+            NotificationCompat.MessagingStyle messagingStyle = new NotificationCompat.MessagingStyle(name).setConversationTitle(String.format("%1$s (%2$s)", name, LocaleController.formatPluralString("NewMessages", Math.max(count, messageObjects.size()))));
 
             StringBuilder text = new StringBuilder();
             boolean isText[] = new boolean[1];
@@ -2078,7 +2078,7 @@ public class NotificationsController {
                 text.append(message);
 
                 unreadConvBuilder.addMessage(message);
-                messagingStyle.addMessage(message, ((long) messageObject.messageOwner.date) * 1000, null);
+                messagingStyle.addMessage(message, ((long) messageObject.messageOwner.date) * 1000, (CharSequence) null);
             }
 
             Intent intent = new Intent(ApplicationLoader.applicationContext, LaunchActivity.class);
@@ -2237,3 +2237,4 @@ public class NotificationsController {
         });
     }
 }
+

@@ -12,7 +12,8 @@
 #include <stdint.h>
 #include <vector>
 #include <map>
-#include <bits/unique_ptr.h>
+#include <memory>
+#include <string>
 #include "Defines.h"
 
 class TL_future_salt;

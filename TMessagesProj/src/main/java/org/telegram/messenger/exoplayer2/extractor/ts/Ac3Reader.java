@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.extractor.ts;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import org.telegram.messenger.exoplayer2.C;
 import org.telegram.messenger.exoplayer2.Format;
 import org.telegram.messenger.exoplayer2.audio.Ac3Util;
@@ -203,3 +203,4 @@ public final class Ac3Reader implements ElementaryStreamReader {
   }
 
 }
+

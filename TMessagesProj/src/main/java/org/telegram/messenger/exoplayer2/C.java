@@ -21,7 +21,7 @@ import android.media.AudioFormat;
 import android.media.AudioManager;
 import android.media.MediaCodec;
 import android.media.MediaFormat;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.view.Surface;
 import org.telegram.messenger.exoplayer2.util.Util;
 import java.lang.annotation.Retention;
@@ -808,3 +808,4 @@ public final class C {
   }
 
 }
+

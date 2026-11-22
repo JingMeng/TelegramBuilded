@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.text.cea;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.text.Layout.Alignment;
 import org.telegram.messenger.exoplayer2.text.Cue;
 
@@ -66,3 +66,4 @@ import org.telegram.messenger.exoplayer2.text.Cue;
   }
 
 }
+

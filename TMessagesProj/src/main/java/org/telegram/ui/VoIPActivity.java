@@ -37,10 +37,10 @@ import android.graphics.drawable.GradientDrawable;
 import android.media.AudioManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.IntRange;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v7.graphics.Palette;
+import androidx.annotation.IntRange;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.palette.graphics.Palette;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.TextPaint;
@@ -1511,3 +1511,4 @@ public class VoIPActivity extends Activity implements VoIPService.StateListener,
         }
     }
 }
+

@@ -20,8 +20,8 @@ import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 import android.text.style.CharacterStyle;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -446,7 +446,7 @@ public class ThemePreviewActivity extends BaseFragment implements NotificationCe
 
             customDialog = new DialogCell.CustomDialog();
             customDialog.name = "Make Apple";
-            customDialog.message = "\uD83E\uDD37\u200D♂️ Sticker";
+            customDialog.message = "\uD83E\uDD37\u200D鈾傦笍 Sticker";
             customDialog.id = 2;
             customDialog.unread_count = 3;
             customDialog.pinned = false;
@@ -891,3 +891,4 @@ public class ThemePreviewActivity extends BaseFragment implements NotificationCe
         }
     }
 }
+

@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.extractor.mp4;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import android.util.Log;
 import android.util.Pair;
 import android.util.SparseArray;
@@ -1362,3 +1362,4 @@ public final class FragmentedMp4Extractor implements Extractor {
   }
 
 }
+

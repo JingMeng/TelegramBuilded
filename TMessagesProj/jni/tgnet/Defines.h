@@ -12,7 +12,8 @@
 #include <functional>
 #include <list>
 #include <limits.h>
-#include <bits/unique_ptr.h>
+#include <memory>
+#include <string>
 #include <sstream>
 
 #define USE_DEBUG_SESSION false

@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.extractor.mp3;
 
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 import org.telegram.messenger.exoplayer2.C;
 import org.telegram.messenger.exoplayer2.Format;
 import org.telegram.messenger.exoplayer2.ParserException;
@@ -446,3 +446,4 @@ public final class Mp3Extractor implements Extractor {
   }
 
 }
+

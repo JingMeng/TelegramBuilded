@@ -144,7 +144,7 @@ jint Java_org_telegram_ui_Components_AnimatedFileDrawable_createDecoder(JNIEnv *
         info->video_dec_ctx = info->video_stream->codec;
     }
     
-    if (info->video_stream <= 0) {
+    if (info->video_stream == nullptr) {
         LOGE("can't find video stream in the input, aborting %s", info->src);
         delete info;
         return 0;
@@ -236,7 +236,7 @@ jint Java_org_telegram_ui_Components_AnimatedFileDrawable_getVideoFrame(JNIEnv *
             if (got_frame == 0) {
                 if (info->has_decoded_frames) {
                     //LOGD("file end reached %s", info->src);
-                    if ((ret = avformat_seek_file(info->fmt_ctx, -1, std::numeric_limits<int64_t>::min(), 0, std::numeric_limits<int64_t>::max(), 0)) < 0) {
+                    if ((ret = avformat_seek_file(info->fmt_ctx, -1, (std::numeric_limits<int64_t>::min)(), 0, (std::numeric_limits<int64_t>::max)(), 0)) < 0) {
                         LOGE("can't seek to begin of file %s, %s", info->src, av_err2str(ret));
                         return 0;
                     } else {

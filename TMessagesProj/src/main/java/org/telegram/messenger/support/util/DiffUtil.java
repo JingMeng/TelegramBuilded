@@ -16,8 +16,8 @@
 
 package org.telegram.messenger.support.util;
 
-import android.support.annotation.Nullable;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.Nullable;
+import androidx.annotation.VisibleForTesting;
 import org.telegram.messenger.support.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -854,3 +854,4 @@ public class DiffUtil {
         }
     }
 }
+

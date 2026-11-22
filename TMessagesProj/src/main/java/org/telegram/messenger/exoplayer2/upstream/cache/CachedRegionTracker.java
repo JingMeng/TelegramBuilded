@@ -15,7 +15,7 @@
  */
 package org.telegram.messenger.exoplayer2.upstream.cache;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.Log;
 import org.telegram.messenger.exoplayer2.extractor.ChunkIndex;
 import java.util.Arrays;
@@ -204,3 +204,4 @@ public final class CachedRegionTracker implements Cache.Listener {
   }
 
 }
+

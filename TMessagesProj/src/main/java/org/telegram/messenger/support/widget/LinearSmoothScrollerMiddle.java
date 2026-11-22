@@ -10,7 +10,7 @@ package org.telegram.messenger.support.widget;
 
 import android.content.Context;
 import android.graphics.PointF;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
@@ -149,3 +149,4 @@ public class LinearSmoothScrollerMiddle extends RecyclerView.SmoothScroller {
         return null;
     }
 }
+
